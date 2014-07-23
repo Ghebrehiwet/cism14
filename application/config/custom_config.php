@@ -6,7 +6,8 @@
   $config['banner'] = 'Default Banner';
    $config['title'] = 'Default Title';
     $config['copyright'] = 'Default Copyright';
-   $config['theme'] = '';
+	$config['masthead'] = 'Default MastHead';
+   $config['theme'] = 'themes/bootswatch/';
  
  
  
