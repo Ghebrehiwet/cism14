@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://gebgebonline.com/school/cism14/index.php/';
+$config['base_url']	= 'http://gebgebonline.com/school/cism14/';
 
 /*
 |--------------------------------------------------------------------------
