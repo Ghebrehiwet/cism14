@@ -22,9 +22,19 @@ class Customers_model extends CI_Model {
 	
 	public function insert()
 	{ 
-		var_dump($_POST);
-			die;
-	}
+		//var_dump($_POST);
+			//die;
+			
+		$data = array(
+			'FirstName' => $this->input->post('FirstName'),
+			'LastName' => $this->input->post('LastName'),
+			'Email' => $this->input->post('Email')
+		
+		);
+		$this->db->insert('test_Customers', $data);
+		return $this->db->insert_id();
+		
+	}#end insert()
 	
 }
 
